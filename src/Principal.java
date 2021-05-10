@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ Una matriz mágica es una matriz cuadrada (tiene igual número de filas que de columnas)
+que tiene como propiedad especial que la suma de las filas, las columnas y las
+diagonales es igual
  */
 
 /**

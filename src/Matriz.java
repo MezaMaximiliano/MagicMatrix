@@ -1,12 +1,6 @@
 
 import java.util.Scanner;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author Maxi
@@ -17,7 +11,7 @@ public class Matriz {
     static Scanner input = new Scanner(System.in);
     //Constructor sin parametros
     public Matriz(){
-       // Scanner input = new Scanner(System.in);
+       
         System.out.print("INGRESE LA DIMENSION DE LA MATRIZ CUADRADA: ");
         this.n=input.nextInt();
         int m[][]=new int[n][n];
