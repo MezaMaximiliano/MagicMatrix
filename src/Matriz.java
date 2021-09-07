@@ -19,10 +19,11 @@ public class Matriz {
         for(int i =0;i<n;i++){
             for (int j =0;j<n;j++){
                 System.out.print("INGRESE UN NUMERO: ");
-                m[i][j]=(int)input.nextInt();
+                m[i][j]=(int)(input.nextInt());
             }
         }
         this.matrix=m;
+        
     }
     
     //sobrecarga de constructor
@@ -81,7 +82,7 @@ public class Matriz {
        int sum=0,sumAux=0;
        boolean rta=true;
        for(int i =0;i<this.n;i++){
-           sum=sum+matrix[0][i];
+           sum=sum+this.matrix[0][i];
        }
        
        for(int i =0;i<this.n;i++){
@@ -101,7 +102,7 @@ public class Matriz {
        int sum=0,sumAux=0;
        boolean rta=true;
        for(int i =0;i<this.n;i++){
-           sum=sum+matrix[i][0];
+           sum=sum+this.matrix[i][0];
        }
        
        for(int i =0;i<this.n;i++){
@@ -120,4 +121,5 @@ public class Matriz {
     public int[][] getMatrix(){
         return this.matrix;
     }
+    
 }

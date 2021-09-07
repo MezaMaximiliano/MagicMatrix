@@ -19,5 +19,8 @@ public class Principal {
         }else{
             System.out.println("LA MATRIZ NO ES MAGICA.");
         }
+      
     }
+    
+    
 }
